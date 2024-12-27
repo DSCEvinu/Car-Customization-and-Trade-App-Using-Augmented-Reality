@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "23825951330",
+    "firebase_url": "https://carease-44bfe-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "carease-44bfe",
+    "storage_bucket": "carease-44bfe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23825951330:android:98e5ca8b5a10acab36bf3b",
+        "android_client_info": {
+          "package_name": "com.example.carease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuyao6iHF6-L-_V1jWRevaoJXHjg0mHP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

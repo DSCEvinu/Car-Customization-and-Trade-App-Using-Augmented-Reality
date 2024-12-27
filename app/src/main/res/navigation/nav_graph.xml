@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeMenu">
+
+    <fragment
+        android:id="@+id/homeMenu"
+        android:name="com.example.carease.presentation.fragment.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/shopMenu"
+        android:name="com.example.carease.presentation.fragment.ShopFragment"
+        android:label="Shop">
+        <action
+            android:id="@+id/action_shopFragment_to_carDetailsFragment"
+            app:destination="@id/carDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/carDetailsFragment"
+        android:name="com.example.carease.presentation.fragment.CarDetailsFragment"
+        android:label="Car Details">
+        <argument
+            android:name="carId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bagMenu"
+        android:name="com.example.carease.presentation.fragment.BagFragment"
+        android:label="Bag" />
+
+    <fragment
+        android:id="@+id/favMenu"
+        android:name="com.example.carease.presentation.fragment.FavFragment"
+        android:label="Favorites" />
+
+    <fragment
+        android:id="@+id/profileMenu"
+        android:name="com.example.carease.presentation.fragment.ProfileFragment"
+        android:label="Profile" />
+
+</navigation>

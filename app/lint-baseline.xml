@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.2.1" type="baseline" client="gradle" dependencies="false" name="AGP (8.2.1)" variant="all" version="8.2.1">
+
+    <issue
+        id="VectorRaster"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more"
+        errorLine1="    android:width=&quot;1200dp&quot;"
+        errorLine2="                   ~~~~~~">
+        <location
+            file="src/main/res/drawable/ic_american_express.xml"
+            line="2"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="VectorRaster"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more"
+        errorLine1="    android:width=&quot;375dp&quot;"
+        errorLine2="                   ~~~~~">
+        <location
+            file="src/main/res/drawable/ic_card.xml"
+            line="3"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="VectorRaster"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more"
+        errorLine1="    android:width=&quot;512dp&quot;"
+        errorLine2="                   ~~~~~">
+        <location
+            file="src/main/res/drawable/ic_diners_club.xml"
+            line="2"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="VectorRaster"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more"
+        errorLine1="    android:width=&quot;500dp&quot;"
+        errorLine2="                   ~~~~~">
+        <location
+            file="src/main/res/drawable/ic_discover.xml"
+            line="3"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="VectorRaster"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more"
+        errorLine1="    android:width=&quot;256dp&quot;"
+        errorLine2="                   ~~~~~">
+        <location
+            file="src/main/res/drawable/ic_jcb.xml"
+            line="3"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="VectorRaster"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more"
+        errorLine1="    android:width=&quot;256dp&quot;"
+        errorLine2="                   ~~~~~">
+        <location
+            file="src/main/res/drawable/ic_unionpay.xml"
+            line="2"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="VectorRaster"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more"
+        errorLine1="    android:width=&quot;1200dp&quot;"
+        errorLine2="                   ~~~~~~">
+        <location
+            file="src/main/res/drawable/ic_visa.xml"
+            line="3"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="VectorRaster"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more"
+        errorLine1="    android:width=&quot;512dp&quot;"
+        errorLine2="                   ~~~~~">
+        <location
+            file="src/main/res/drawable/ic_visual_search.xml"
+            line="2"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.15.0"
+        errorLine1="    implementation &apos;androidx.core:core-ktx:1.12.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="54"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0"
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.6.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="55"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0"
+        errorLine1="    implementation &apos;com.google.android.material:material:1.11.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="56"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.0"
+        errorLine1="    implementation &apos;androidx.constraintlayout:constraintlayout:2.1.4&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="57"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.firebase:firebase-bom than 32.7.1 is available: 33.6.0"
+        errorLine1="    implementation platform(&apos;com.google.firebase:firebase-bom:32.7.1&apos;)"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="60"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.8.7"
+        errorLine1="    implementation &quot;androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="73"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.7.0 is available: 2.8.7"
+        errorLine1="    implementation &quot;androidx.lifecycle:lifecycle-livedata-ktx:2.7.0&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="74"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.7.0 is available: 2.8.7"
+        errorLine1="    implementation &quot;androidx.lifecycle:lifecycle-runtime-ktx:2.7.0&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="75"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.android.application than 8.2.1 is available: 8.7.2"
+        errorLine1="agp = &quot;8.2.1&quot;"
+        errorLine2="      ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="2"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.0 is available: 3.6.1"
+        errorLine1="androidx-espresso-core = &quot;3.5.0&quot;"
+        errorLine2="                         ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="3"
+            column="26"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.ext:junit than 1.1.4 is available: 1.2.1"
+        errorLine1="androidx-junit = &quot;1.1.4&quot;"
+        errorLine2="                 ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="4"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.5.1 is available: 2.8.7"
+        errorLine1="androidx-lifecycle-viewmodel-ktx = &quot;2.5.1&quot;"
+        errorLine2="                                   ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="5"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-runtime than 2.5.0-beta02 is available: 2.6.1"
+        errorLine1="androidx-room-runtime = &quot;2.5.0-beta02&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="6"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.code.gson:gson than 2.9.0 is available: 2.10.1"
+        errorLine1="google-gson = &quot;2.9.0&quot;"
+        errorLine2="              ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="9"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.gms:google-services than 4.3.15 is available: 4.4.2"
+        errorLine1="google-services = &quot;4.3.15&quot;"
+        errorLine2="                  ~~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="10"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.code.gson:gson than 2.10 is available: 2.10.1"
+        errorLine1="gson = &quot;2.10&quot;"
+        errorLine2="       ~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="11"
+            column="8"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin.android than 1.9.10 is available: 1.9.22"
+        errorLine1="kotlin = &quot;1.9.10&quot;"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="13"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.15.0"
+        errorLine1="core-ktx = &quot;1.10.1&quot;"
+        errorLine2="           ~~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="14"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1"
+        errorLine1="androidx-test-ext-junit = &quot;1.1.5&quot;"
+        errorLine2="                          ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="16"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1"
+        errorLine1="espresso-core = &quot;3.5.1&quot;"
+        errorLine2="                ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="17"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0"
+        errorLine1="appcompat = &quot;1.6.1&quot;"
+        errorLine2="            ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="18"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.6.4 is available: 1.7.3"
+        errorLine1="kotlinx-coroutines-android = &quot;1.6.4&quot;"
+        errorLine2="                             ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="20"
+            column="30"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.6.4 is available: 1.7.3"
+        errorLine1="kotlinx-coroutines-android = &quot;1.6.4&quot;"
+        errorLine2="                             ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="20"
+            column="30"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-play-services than 1.6.4 is available: 1.7.3"
+        errorLine1="kotlinx-coroutines-android = &quot;1.6.4&quot;"
+        errorLine2="                             ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="20"
+            column="30"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.6.1 is available: 1.7.3"
+        errorLine1="kotlinx-coroutines-core = &quot;1.6.1&quot;"
+        errorLine2="                          ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="21"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.5.1 is available: 2.8.7"
+        errorLine1="lifecycle-livedata-ktx = &quot;2.5.1&quot;"
+        errorLine2="                         ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="24"
+            column="26"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.6.1 is available: 2.8.7"
+        errorLine1="lifecycle-viewmodel-ktx = &quot;2.6.1&quot;"
+        errorLine2="                          ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="25"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.6.1 is available: 2.8.7"
+        errorLine1="lifecycle-viewmodel-ktx = &quot;2.6.1&quot;"
+        errorLine2="                          ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="25"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.airbnb.android:lottie than 5.2.0 is available: 6.2.0"
+        errorLine1="lottie = &quot;5.2.0&quot;"
+        errorLine2="         ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="26"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.9.0 is available: 1.12.0"
+        errorLine1="material = &quot;1.9.0&quot;"
+        errorLine2="           ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="27"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.0"
+        errorLine1="constraintlayout = &quot;2.1.4&quot;"
+        errorLine2="                   ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="28"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.firebase:firebase-auth-ktx than 22.1.1 is available: 23.1.0"
+        errorLine1="firebase-auth-ktx = &quot;22.1.1&quot;"
+        errorLine2="                    ~~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="29"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-compiler than 2.5.0-beta02 is available: 2.6.1"
+        errorLine1="room-compiler = &quot;2.5.0-beta02&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="30"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-ktx than 2.5.0-beta02 is available: 2.6.1"
+        errorLine1="room-ktx = &quot;2.5.0-beta02&quot;"
+        errorLine2="           ~~~~~~~~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="31"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-compiler than 2.5.2 is available: 2.6.1"
+        errorLine1="room-runtime = &quot;2.5.2&quot;"
+        errorLine2="               ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="32"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-ktx than 2.5.2 is available: 2.6.1"
+        errorLine1="room-runtime = &quot;2.5.2&quot;"
+        errorLine2="               ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="32"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-runtime than 2.5.2 is available: 2.6.1"
+        errorLine1="room-runtime = &quot;2.5.2&quot;"
+        errorLine2="               ~~~~~~~">
+        <location
+            file="$HOME/OneDrive/Desktop/CarEase/CarEase/CarEase-master/gradle/libs.versions.toml"
+            line="32"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="NotifyDataSetChanged"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort."
+        errorLine1="        notifyDataSetChanged()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/carease/presentation/adapter/CardAdapter.kt"
+            line="70"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NotifyDataSetChanged"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort."
+        errorLine1="        notifyDataSetChanged()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/carease/presentation/adapter/CartAdapter.kt"
+            line="57"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <location
+            file="src/main/res/mipmap-anydpi-v26"/>
+    </issue>
+
+    <issue
+        id="UseCompoundDrawables"
+        message="This tag and its children can be replaced by one `&lt;TextView/>` and a compound drawable"
+        errorLine1="    &lt;LinearLayout"
+        errorLine2="     ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="10"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        message="Very long vector path (2439 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        errorLine1="      android:pathData=&quot;M200.63,601.96L150.19,719.23h32.84l9.31,-23.48h54.1l9.26,23.48h33.56L238.86,601.96zM219.29,629.25l16.49,41.03L202.75,670.29zM292.72,719.21L292.72,601.94l46.66,0.17 27.14,75.61 26.49,-75.78h46.29v117.26h-29.32v-86.4l-31.08,86.4h-25.71l-31.16,-86.4v86.4zM459.36,719.21L459.36,601.94h95.66v26.23h-66.04v20.06h64.5v24.69h-64.5v20.83h66.04v25.46zM572,601.96v117.26h29.32v-41.66h12.34l35.15,41.66h35.83l-38.57,-43.2c15.83,-1.34 32.16,-14.92 32.16,-36.02 0,-24.68 -19.37,-38.04 -40.98,-38.04zM601.31,628.19h33.51c8.04,0 13.89,6.29 13.89,12.34 0,7.79 -7.58,12.34 -13.45,12.34h-33.94zM720.12,719.21h-29.93L690.19,601.94h29.93zM791.09,719.21h-6.46c-31.26,0 -50.24,-24.63 -50.24,-58.15 0,-34.35 18.77,-59.11 58.25,-59.11h32.4v27.77h-33.59c-16.03,0 -27.36,12.51 -27.36,31.63 0,22.71 12.96,32.25 31.63,32.25h7.72zM854.89,601.96l-50.44,117.26h32.84l9.31,-23.48h54.1l9.26,23.48h33.56l-50.39,-117.26zM873.55,629.25l16.49,41.03h-33.03zM946.93,719.21L946.93,601.94h37.27l47.59,73.68v-73.68h29.32v117.26h-36.07l-48.8,-75.6v75.6zM363.7,924.42L363.7,807.16h95.66v26.23h-66.04v20.06h64.5v24.69h-64.5v20.83h66.04v25.46zM832.45,924.42L832.45,807.16h95.66v26.23h-66.04v20.06h64.19v24.69L862.07,878.13v20.83h66.04v25.46zM463.07,924.42l46.58,-57.91 -47.69,-59.36L498.9,807.16l28.4,36.69 28.5,-36.69h35.49l-47.06,58.63 46.66,58.63L553.96,924.42l-27.58,-36.11 -26.91,36.11zM594.37,807.18L594.37,924.44h30.09v-37.03h30.86c26.11,0 45.9,-13.85 45.9,-40.79 0,-22.32 -15.52,-39.44 -42.09,-39.44zM624.46,833.7h32.5c8.44,0 14.47,5.17 14.47,13.5 0,7.83 -6,13.5 -14.56,13.5h-32.4zM713.95,807.16L713.95,924.42h29.32v-41.66h12.34l35.15,41.66h35.83l-38.57,-43.2c15.83,-1.34 32.16,-14.92 32.16,-36.02 0,-24.68 -19.37,-38.04 -40.98,-38.04zM743.26,833.39h33.51c8.04,0 13.89,6.29 13.89,12.34 0,7.79 -7.58,12.34 -13.45,12.34h-33.94zM941.69,924.42v-25.46h58.67c8.68,0 12.44,-4.69 12.44,-9.84 0,-4.93 -3.75,-9.91 -12.44,-9.91h-26.51c-23.05,0 -35.88,-14.04 -35.88,-35.12 0,-18.8 11.75,-36.94 46,-36.94h57.09l-12.34,26.39h-49.38c-9.44,0 -12.34,4.95 -12.34,9.68 0,4.86 3.59,10.22 10.8,10.22h27.77c25.69,0 36.84,14.57 36.84,33.65 0,20.52 -12.42,37.32 -38.24,37.32zM1049.28,924.42v-25.46h58.67c8.68,0 12.44,-4.69 12.44,-9.84 0,-4.93 -3.75,-9.91 -12.44,-9.91h-26.51c-23.05,0 -35.88,-14.04 -35.88,-35.12 0,-18.8 11.75,-36.94 46,-36.94h57.09l-12.34,26.39h-49.37c-9.44,0 -12.34,4.95 -12.34,9.68 0,4.86 3.59,10.22 10.8,10.22h27.77c25.69,0 36.84,14.57 36.84,33.65 0,20.52 -12.42,37.32 -38.24,37.32z&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/drawable/ic_american_express.xml"
+            line="13"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        message="Very long vector path (16477 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        errorLine1="      android:pathData=&quot;M190.373,29.421C190.373,23.128 187.081,23.541 183.928,23.474L183.928,21.655C186.661,21.788 189.464,21.788 192.203,21.788C195.146,21.788 199.144,21.655 204.336,21.655C222.493,21.655 232.378,33.758 232.378,46.152C232.378,53.081 228.315,70.505 203.491,70.505C199.918,70.505 196.617,70.367 193.324,70.367C190.171,70.367 187.081,70.433 183.928,70.505L183.928,68.684C188.132,68.263 190.171,68.124 190.373,63.364L190.373,29.421ZM197.245,62.246C197.245,67.634 201.107,68.263 204.54,68.263C219.689,68.263 224.664,56.856 224.664,46.428C224.664,33.345 216.249,23.898 202.717,23.898C199.838,23.898 198.514,24.103 197.245,24.178L197.245,62.246ZM234.838,68.686L236.168,68.686C238.129,68.686 239.533,68.686 239.533,66.371L239.533,47.41C239.533,44.333 238.482,43.905 235.885,42.514L235.885,41.392C239.181,40.407 243.111,39.084 243.388,38.875C243.881,38.595 244.3,38.52 244.651,38.52C244.998,38.52 245.143,38.941 245.143,39.505L245.143,66.371C245.143,68.686 246.686,68.686 248.651,68.686L249.84,68.686L249.84,70.506C247.454,70.506 244.998,70.367 242.481,70.367C239.955,70.367 237.429,70.435 234.838,70.506L234.838,68.686ZM242.34,27.746C240.513,27.746 238.904,26.066 238.904,24.246C238.904,22.494 240.59,20.88 242.34,20.88C244.158,20.88 245.775,22.356 245.775,24.246C245.775,26.138 244.23,27.746 242.34,27.746ZM256.503,47.827C256.503,45.24 255.727,44.542 252.439,43.213L252.439,41.883C255.451,40.905 258.323,39.991 261.693,38.52C261.901,38.52 262.107,38.663 262.107,39.219L262.107,43.77C266.11,40.905 269.548,38.52 274.251,38.52C280.207,38.52 282.309,42.86 282.309,48.32L282.309,66.371C282.309,68.686 283.85,68.686 285.815,68.686L287.078,68.686L287.078,70.506C284.618,70.506 282.164,70.367 279.646,70.367C277.119,70.367 274.593,70.435 272.07,70.506L272.07,68.686L273.331,68.686C275.298,68.686 276.694,68.686 276.694,66.371L276.694,48.252C276.694,44.258 274.251,42.303 270.248,42.303C268.005,42.303 264.429,44.12 262.107,45.661L262.107,66.371C262.107,68.686 263.659,68.686 265.623,68.686L266.883,68.686L266.883,70.506C264.429,70.506 261.971,70.367 259.447,70.367C256.926,70.367 254.397,70.435 251.876,70.506L251.876,68.686L253.141,68.686C255.104,68.686 256.503,68.686 256.503,66.371L256.503,47.827ZM292.409,51.192C292.265,51.823 292.265,52.869 292.409,55.25C292.822,61.897 297.111,67.353 302.712,67.353C306.575,67.353 309.594,65.253 312.182,62.667L313.162,63.647C309.936,67.917 305.938,71.555 300.194,71.555C289.04,71.555 286.799,60.775 286.799,56.299C286.799,42.581 296.051,38.52 300.956,38.52C306.642,38.52 312.747,42.088 312.809,49.506C312.809,49.932 312.809,50.347 312.747,50.771L312.11,51.192L292.409,51.192ZM304.823,48.95C306.575,48.95 306.778,48.039 306.778,47.2C306.778,43.632 304.608,40.763 300.678,40.763C296.403,40.763 293.458,43.905 292.618,48.95L304.823,48.95ZM314.426,68.686L316.32,68.686C318.276,68.686 319.68,68.686 319.68,66.371L319.68,46.711C319.68,44.542 317.089,44.12 316.035,43.561L316.035,42.514C321.154,40.342 323.96,38.52 324.6,38.52C325.012,38.52 325.22,38.73 325.22,39.434L325.22,45.731L325.37,45.731C327.116,43.001 330.067,38.52 334.342,38.52C336.096,38.52 338.337,39.708 338.337,42.229C338.337,44.12 337.008,45.804 335.046,45.804C332.863,45.804 332.863,44.12 330.412,44.12C329.219,44.12 325.294,45.731 325.294,49.932L325.294,66.371C325.294,68.686 326.693,68.686 328.658,68.686L332.583,68.686L332.583,70.506C328.725,70.435 325.79,70.367 322.771,70.367C319.897,70.367 316.951,70.435 314.426,70.506L314.426,68.686ZM341.422,60.775C342.335,65.393 345.138,69.315 350.26,69.315C354.39,69.315 355.932,66.796 355.932,64.348C355.932,56.088 340.651,58.745 340.651,47.481C340.651,43.559 343.811,38.52 351.52,38.52C353.761,38.52 356.776,39.153 359.509,40.554L360.004,47.686L358.39,47.686C357.689,43.281 355.237,40.762 350.747,40.762C347.939,40.762 345.278,42.371 345.278,45.379C345.278,53.573 361.546,51.049 361.546,62.035C361.546,66.653 357.829,71.556 349.483,71.556C346.679,71.556 343.382,70.575 340.931,69.177L340.158,61.128L341.422,60.775ZM424.863,34.32L423.114,34.32C421.779,26.138 415.958,22.845 408.109,22.845C400.041,22.845 388.328,28.232 388.328,45.027C388.328,59.171 398.433,69.315 409.227,69.315C416.167,69.315 421.922,64.558 423.326,57.206L424.935,57.625L423.326,67.842C420.38,69.668 412.455,71.555 407.824,71.555C391.421,71.555 381.045,60.987 381.045,45.24C381.045,30.892 393.873,20.602 407.617,20.602C413.294,20.602 418.766,22.427 424.163,24.318L424.863,34.32ZM427.393,68.686L428.718,68.686C430.687,68.686 432.091,68.686 432.091,66.371L432.091,27.398C432.091,22.845 431.039,22.705 428.375,21.936L428.375,20.816C431.177,19.908 434.123,18.648 435.596,17.805C436.361,17.388 436.926,17.033 437.133,17.033C437.56,17.033 437.701,17.457 437.701,18.018L437.701,66.371C437.701,68.686 439.242,68.686 441.208,68.686L442.392,68.686L442.392,70.506C440.016,70.506 437.56,70.367 435.035,70.367C432.513,70.367 429.988,70.435 427.393,70.506L427.393,68.686ZM472.415,66.653C472.415,67.917 473.183,67.984 474.374,67.984C475.217,67.984 476.264,67.917 477.18,67.917L477.18,69.39C474.16,69.668 468.413,71.137 467.079,71.556L466.726,71.345L466.726,65.679C462.526,69.107 459.295,71.556 454.311,71.556C450.528,71.556 446.602,69.107 446.602,63.231L446.602,45.311C446.602,43.491 446.323,41.74 442.4,41.392L442.4,40.061C444.927,39.993 450.528,39.574 451.443,39.574C452.22,39.574 452.22,40.061 452.22,41.602L452.22,59.654C452.22,61.757 452.22,67.774 458.316,67.774C460.7,67.774 463.855,65.955 466.796,63.511L466.796,44.677C466.796,43.281 463.433,42.514 460.914,41.813L460.914,40.554C467.218,40.131 471.151,39.574 471.848,39.574C472.415,39.574 472.415,40.061 472.415,40.835L472.415,66.653ZM486.367,43.561C489.168,41.181 492.956,38.52 496.816,38.52C504.95,38.52 509.852,45.594 509.852,53.219C509.852,62.386 503.125,71.556 493.091,71.556C487.907,71.556 485.173,69.874 483.347,69.107L481.246,70.713L479.779,69.946C480.399,65.817 480.758,61.757 480.758,57.489L480.758,27.398C480.758,22.845 479.701,22.705 477.038,21.936L477.038,20.816C479.849,19.908 482.787,18.648 484.262,17.805C485.033,17.388 485.59,17.033 485.808,17.033C486.228,17.033 486.367,17.457 486.367,18.018L486.367,43.561ZM486.367,62.594C486.367,65.253 488.889,69.738 493.588,69.738C501.092,69.738 504.245,62.386 504.245,56.154C504.245,48.598 498.501,42.303 493.029,42.303C490.428,42.303 488.259,43.983 486.367,45.594L486.367,62.594ZM183.848,111.195L184.386,111.195C185.757,111.195 187.207,111.01 187.207,109.027L187.207,89.078C187.207,87.092 185.757,86.903 184.386,86.903L183.848,86.903L183.848,85.761C185.337,85.761 187.627,85.91 189.501,85.91C191.407,85.91 193.693,85.761 195.486,85.761L195.486,86.903L194.951,86.903C193.583,86.903 192.13,87.092 192.13,89.078L192.13,109.027C192.13,111.01 193.583,111.195 194.951,111.195L195.486,111.195L195.486,112.343C193.656,112.343 191.361,112.193 189.461,112.193C187.589,112.193 185.337,112.343 183.848,112.343L183.848,111.195ZM221.7,104.836L221.776,104.762L221.776,90.484C221.776,87.36 219.599,86.903 218.456,86.903L217.615,86.903L217.615,85.761C219.41,85.761 221.166,85.912 222.957,85.912C224.521,85.912 226.091,85.761 227.651,85.761L227.651,86.903L227.082,86.903C225.475,86.903 223.682,87.209 223.682,91.739L223.682,109.069C223.682,110.4 223.721,111.731 223.908,112.911L222.459,112.911L202.812,91.051L202.812,106.743C202.812,110.056 203.455,111.195 206.396,111.195L207.043,111.195L207.043,112.343C205.404,112.343 203.766,112.193 202.123,112.193C200.411,112.193 198.654,112.343 196.936,112.343L196.936,111.195L197.47,111.195C200.102,111.195 200.901,109.409 200.901,106.366L200.901,90.327C200.901,88.197 199.142,86.903 197.432,86.903L196.936,86.903L196.936,85.761C198.384,85.761 199.872,85.912 201.318,85.912C202.465,85.912 203.574,85.761 204.717,85.761L221.7,104.836ZM233.365,87.664C230.499,87.664 230.392,88.35 229.818,91.126L228.675,91.126C228.823,90.062 229.017,88.997 229.133,87.89C229.287,86.822 229.361,85.761 229.361,84.657L230.276,84.657C230.584,85.801 231.537,85.761 232.572,85.761L252.254,85.761C253.286,85.761 254.237,85.723 254.317,84.579L255.227,84.732C255.079,85.761 254.925,86.786 254.809,87.817C254.739,88.846 254.739,89.875 254.739,90.9L253.592,91.323C253.514,89.915 253.322,87.664 250.768,87.664L244.511,87.664L244.511,107.923C244.511,110.86 245.848,111.195 247.676,111.195L248.4,111.195L248.4,112.343C246.914,112.343 244.241,112.193 242.184,112.193C239.894,112.193 237.222,112.343 235.732,112.343L235.732,111.195L236.456,111.195C238.562,111.195 239.624,111.008 239.624,108.003L239.624,87.664L233.365,87.664ZM256.447,111.195L256.983,111.195C258.356,111.195 259.807,111.01 259.807,109.027L259.807,89.078C259.807,87.092 258.356,86.903 256.983,86.903L256.447,86.903L256.447,85.761C258.77,85.761 262.747,85.91 265.945,85.91C269.155,85.91 273.117,85.761 275.71,85.761C275.645,87.396 275.682,89.914 275.793,91.588L274.643,91.893C274.459,89.42 274.003,87.44 269.994,87.44L264.696,87.44L264.696,97.413L269.23,97.413C271.518,97.413 272.018,96.123 272.244,94.062L273.386,94.062C273.311,95.551 273.272,97.035 273.272,98.517C273.272,99.968 273.311,101.413 273.386,102.86L272.244,103.086C272.018,100.804 271.902,99.318 269.266,99.318L264.696,99.318L264.696,108.19C264.696,110.665 266.899,110.665 269.342,110.665C273.923,110.665 275.943,110.358 277.089,106.023L278.156,106.285C277.658,108.308 277.202,110.321 276.863,112.343C274.417,112.343 270.03,112.193 266.6,112.193C263.162,112.193 258.621,112.343 256.447,112.343L256.447,111.195ZM283.306,89.795C283.306,87.017 281.78,86.903 280.594,86.903L279.907,86.903L279.907,85.759C281.128,85.759 283.493,85.912 285.822,85.912C288.108,85.912 289.942,85.759 291.963,85.759C296.768,85.759 301.046,87.053 301.046,92.466C301.046,95.887 298.758,97.982 295.743,99.169L302.266,108.91C303.336,110.52 304.095,110.972 305.967,111.193L305.967,112.343C304.707,112.343 303.485,112.193 302.228,112.193C301.046,112.193 299.821,112.343 298.644,112.343C295.706,108.497 293.181,104.385 290.704,99.999L288.191,99.999L288.191,108.152C288.191,111.088 289.561,111.193 291.313,111.193L292.002,111.193L292.002,112.343C289.823,112.343 287.618,112.193 285.441,112.193C283.607,112.193 281.814,112.343 279.907,112.343L279.907,111.193L280.594,111.193C282.011,111.193 283.306,110.555 283.306,109.144L283.306,89.795ZM288.191,98.627L290.055,98.627C293.874,98.627 295.929,97.184 295.929,92.688C295.929,89.304 293.756,87.133 290.357,87.133C289.211,87.133 288.722,87.25 288.191,87.284L288.191,98.627ZM331.872,104.836L331.94,104.762L331.94,90.484C331.94,87.36 329.769,86.903 328.626,86.903L327.789,86.903L327.789,85.761C329.582,85.761 331.331,85.912 333.129,85.912C334.695,85.912 336.252,85.761 337.829,85.761L337.829,86.903L337.252,86.903C335.651,86.903 333.857,87.209 333.857,91.739L333.857,109.069C333.857,110.4 333.893,111.731 334.082,112.911L332.635,112.911L312.987,91.051L312.987,106.743C312.987,110.056 313.633,111.195 316.571,111.195L317.219,111.195L317.219,112.343C315.581,112.343 313.939,112.193 312.301,112.193C310.578,112.193 308.824,112.343 307.109,112.343L307.109,111.195L307.638,111.195C310.275,111.195 311.076,109.409 311.076,106.366L311.076,90.327C311.076,88.197 309.321,86.903 307.606,86.903L307.109,86.903L307.109,85.761C308.554,85.761 310.049,85.912 311.498,85.912C312.633,85.912 313.744,85.761 314.892,85.761L331.872,104.836ZM343.964,106.897C343.576,108.19 343.117,109.186 343.117,109.865C343.117,111.01 344.721,111.195 345.977,111.195L346.403,111.195L346.403,112.343C344.874,112.26 343.316,112.195 341.778,112.195C340.407,112.195 339.042,112.26 337.663,112.343L337.663,111.195L337.894,111.195C339.381,111.195 340.643,110.321 341.207,108.718L347.319,91.247C347.809,89.837 348.503,87.932 348.732,86.518C349.947,86.105 351.476,85.345 352.201,84.886C352.318,84.846 352.385,84.807 352.506,84.807C352.62,84.807 352.69,84.807 352.776,84.924C352.89,85.228 352.997,85.571 353.121,85.875L360.14,105.792C360.596,107.123 361.051,108.531 361.544,109.679C362.007,110.745 362.808,111.195 364.069,111.195L364.297,111.195L364.297,112.343C362.58,112.26 360.86,112.195 359.033,112.195C357.165,112.195 355.251,112.26 353.305,112.343L353.305,111.195L353.729,111.195C354.602,111.195 356.095,111.047 356.095,110.093C356.095,109.601 355.751,108.573 355.325,107.351L353.841,102.935L345.18,102.935L343.964,106.897ZM349.532,90.026L349.454,90.026L345.905,100.804L353.035,100.804L349.532,90.026ZM365.976,87.664C363.113,87.664 362.999,88.35 362.425,91.126L361.279,91.126C361.429,90.062 361.622,88.997 361.741,87.89C361.893,86.822 361.964,85.761 361.964,84.657L362.885,84.657C363.187,85.801 364.145,85.761 365.171,85.761L384.862,85.761C385.888,85.761 386.841,85.723 386.919,84.579L387.833,84.732C387.686,85.761 387.533,86.786 387.419,87.817C387.334,88.846 387.334,89.875 387.334,90.9L386.193,91.323C386.123,89.915 385.931,87.664 383.374,87.664L377.115,87.664L377.115,107.923C377.115,110.86 378.454,111.195 380.281,111.195L381.007,111.195L381.007,112.343C379.519,112.343 376.85,112.193 374.788,112.193C372.503,112.193 369.826,112.343 368.339,112.343L368.339,111.195L369.063,111.195C371.166,111.195 372.233,111.008 372.233,108.003L372.233,87.664L365.976,87.664ZM389.24,111.195L389.774,111.195C391.152,111.195 392.595,111.01 392.595,109.027L392.595,89.078C392.595,87.092 391.152,86.903 389.774,86.903L389.24,86.903L389.24,85.761C390.732,85.761 393.017,85.91 394.883,85.91C396.796,85.91 399.085,85.761 400.881,85.761L400.881,86.903L400.347,86.903C398.971,86.903 397.518,87.092 397.518,89.078L397.518,109.027C397.518,111.01 398.971,111.195 400.347,111.195L400.881,111.195L400.881,112.343C399.047,112.343 396.757,112.193 394.852,112.193C392.979,112.193 390.732,112.343 389.24,112.343L389.24,111.195ZM416.097,85.192C424.231,85.192 430.713,90.221 430.713,98.332C430.713,107.091 424.417,112.913 416.294,112.913C408.198,112.913 402.021,107.431 402.021,99.243C402.021,91.325 408.162,85.192 416.097,85.192ZM416.673,111.237C424.077,111.237 425.365,104.721 425.365,99.17C425.365,93.602 422.36,86.864 416.023,86.864C409.345,86.864 407.363,92.807 407.363,97.904C407.363,104.721 410.491,111.237 416.673,111.237ZM456.424,104.836L456.502,104.762L456.502,90.484C456.502,87.36 454.321,86.903 453.176,86.903L452.349,86.903L452.349,85.761C454.135,85.761 455.893,85.912 457.679,85.912C459.251,85.912 460.814,85.761 462.381,85.761L462.381,86.903L461.804,86.903C460.205,86.903 458.409,87.209 458.409,91.739L458.409,109.069C458.409,110.4 458.445,111.731 458.638,112.911L457.191,112.911L437.537,91.051L437.537,106.743C437.537,110.056 438.187,111.195 441.121,111.195L441.773,111.195L441.773,112.343C440.131,112.343 438.495,112.193 436.853,112.193C435.136,112.193 433.376,112.343 431.658,112.343L431.658,111.195L432.197,111.195C434.833,111.195 435.627,109.409 435.627,106.366L435.627,90.327C435.627,88.197 433.881,86.903 432.156,86.903L431.658,86.903L431.658,85.761C433.11,85.761 434.599,85.912 436.047,85.912C437.19,85.912 438.294,85.761 439.442,85.761L456.424,104.836ZM468.511,106.897C468.136,108.19 467.674,109.186 467.674,109.865C467.674,111.01 469.281,111.195 470.532,111.195L470.959,111.195L470.959,112.343C469.431,112.26 467.864,112.195 466.338,112.195C464.961,112.195 463.593,112.26 462.225,112.343L462.225,111.195L462.441,111.195C463.935,111.195 465.198,110.321 465.762,108.718L471.875,91.247C472.369,89.837 473.059,87.932 473.281,86.518C474.504,86.105 476.028,85.345 476.76,84.886C476.869,84.846 476.945,84.807 477.061,84.807C477.175,84.807 477.248,84.807 477.325,84.924C477.44,85.228 477.558,85.571 477.673,85.875L484.689,105.792C485.147,107.123 485.603,108.531 486.104,109.679C486.562,110.745 487.367,111.195 488.622,111.195L488.855,111.195L488.855,112.343C487.135,112.26 485.417,112.195 483.583,112.195C481.719,112.195 479.807,112.26 477.861,112.343L477.861,111.195L478.282,111.195C479.154,111.195 480.652,111.047 480.652,110.093C480.652,109.601 480.305,108.573 479.88,107.351L478.398,102.935L469.736,102.935L468.511,106.897ZM474.087,90.026L474.011,90.026L470.457,100.804L477.598,100.804L474.087,90.026ZM498.469,108.609C498.469,110.135 499.529,110.589 500.75,110.745C502.315,110.86 504.032,110.86 505.792,110.667C507.392,110.475 508.764,109.563 509.45,108.609C510.059,107.77 510.401,106.706 510.634,105.867L511.74,105.867C511.321,108.037 510.785,110.174 510.325,112.343C506.976,112.343 503.607,112.195 500.258,112.195C496.895,112.195 493.542,112.343 490.184,112.343L490.184,111.195L490.71,111.195C492.089,111.195 493.581,111.01 493.581,108.646L493.581,89.077C493.581,87.092 492.089,86.903 490.71,86.903L490.184,86.903L490.184,85.761C492.202,85.761 494.189,85.912 496.208,85.912C498.161,85.912 500.065,85.761 502.012,85.761L502.012,86.903L501.053,86.903C499.607,86.903 498.469,86.946 498.469,88.96L498.469,108.609Z&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/drawable/ic_diners_club.xml"
+            line="13"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        message="Very long vector path (3443 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        errorLine1="      android:pathData=&quot;M36.345,105.259L36.345,99.259a3.558,3.558 0,0 0,-3.759 -3.799,3.702 3.702,0 0,0 -3.359,1.7 3.511,3.511 0,0 0,-3.16 -1.7,3.161 3.161,0 0,0 -2.8,1.42v-1.18h-2.08v9.559h2.1v-5.299a2.236,2.236 0,0 1,2.34 -2.54c1.38,0 2.08,0.9 2.08,2.52v5.319h2.1v-5.299a2.254,2.254 0,0 1,2.34 -2.54c1.42,0 2.1,0.9 2.1,2.52v5.319ZM67.421,95.7h-3.399L64.022,92.8h-2.1v2.9h-1.94v1.9h1.94v4.359c0,2.22 0.86,3.54 3.319,3.54a4.885,4.885 0,0 0,2.6 -0.74l-0.6,-1.78a3.839,3.839 0,0 1,-1.84 0.54c-1.04,0 -1.38,-0.64 -1.38,-1.6v-4.319h3.399ZM85.159,95.46a2.819,2.819 0,0 0,-2.52 1.4v-1.16h-2.06v9.559h2.08v-5.359c0,-1.58 0.68,-2.46 2.04,-2.46a3.388,3.388 0,0 1,1.3 0.24l0.64,-1.96a4.446,4.446 0,0 0,-1.48 -0.26ZM58.342,96.46a7.148,7.148 0,0 0,-3.899 -1c-2.42,0 -3.979,1.16 -3.979,3.059 0,1.56 1.16,2.52 3.299,2.82l0.98,0.14c1.14,0.16 1.68,0.46 1.68,1 0,0.74 -0.76,1.16 -2.18,1.16a5.092,5.092 0,0 1,-3.18 -1l-0.98,1.62a6.897,6.897 0,0 0,4.139 1.24c2.76,0 4.359,-1.3 4.359,-3.12 0,-1.68 -1.26,-2.56 -3.339,-2.86l-0.98,-0.14c-0.9,-0.12 -1.62,-0.3 -1.62,-0.94 0,-0.7 0.68,-1.12 1.82,-1.12a6.163,6.163 0,0 1,2.98 0.82ZM114.055,95.46a2.819,2.819 0,0 0,-2.52 1.4v-1.16h-2.06v9.559h2.08v-5.359c0,-1.58 0.68,-2.46 2.04,-2.46a3.389,3.389 0,0 1,1.3 0.24l0.64,-1.96a4.447,4.447 0,0 0,-1.48 -0.26ZM87.258,100.479a4.829,4.829 0,0 0,5.1 5.02,5.007 5.007,0 0,0 3.439,-1.14l-1,-1.68a4.202,4.202 0,0 1,-2.5 0.86,3.065 3.065,0 0,1 0,-6.119 4.201,4.201 0,0 1,2.5 0.86l1,-1.68a5.008,5.008 0,0 0,-3.439 -1.14,4.829 4.829,0 0,0 -5.1,5.019ZM106.736,100.479v-4.779h-2.08v1.16a3.626,3.626 0,0 0,-3.02 -1.4,5.025 5.025,0 0,0 0,10.039 3.626,3.626 0,0 0,3.02 -1.4v1.16L106.736,105.259ZM98.997,100.479a2.894,2.894 0,1 1,2.9 3.06,2.867 2.867,0 0,1 -2.9,-3.06ZM73.9,95.46a5.024,5.024 0,0 0,0.14 10.039,5.81 5.81,0 0,0 3.919,-1.34l-1.02,-1.54a4.554,4.554 0,0 1,-2.78 1,2.655 2.655,0 0,1 -2.86,-2.34L78.4,101.279c0.02,-0.26 0.04,-0.52 0.04,-0.8 -0.02,-2.979 -1.86,-5.019 -4.539,-5.019ZM73.86,97.32a2.374,2.374 0,0 1,2.42 2.32h-4.959a2.461,2.461 0,0 1,2.54 -2.32ZM126.033,100.479v-8.618h-2.08v4.999a3.626,3.626 0,0 0,-3.02 -1.4,5.025 5.025,0 0,0 0,10.039 3.626,3.626 0,0 0,3.02 -1.4v1.16h2.08ZM129.5,103.873a0.954,0.954 0,0 1,0.376 0.075,0.976 0.976,0 0,1 0.307,0.204 0.957,0.957 0,0 1,0.207 0.303,0.934 0.934,0 0,1 0,0.737 0.965,0.965 0,0 1,-0.207 0.301,0.998 0.998,0 0,1 -0.307,0.205 0.939,0.939 0,0 1,-0.376 0.076,0.968 0.968,0 0,1 -0.898,-0.582 0.936,0.936 0,0 1,0 -0.737,0.963 0.963,0 0,1 0.206,-0.303 0.949,0.949 0,0 1,0.308 -0.204A0.982,0.982 0,0 1,129.5 103.873ZM129.5,105.564a0.707,0.707 0,0 0,0.287 -0.058,0.754 0.754,0 0,0 0.233,-0.158 0.745,0.745 0,0 0,0 -1.048,0.738 0.738,0 0,0 -0.233,-0.157 0.717,0.717 0,0 0,-0.287 -0.057,0.747 0.747,0 0,0 -0.292,0.057 0.73,0.73 0,0 0,-0.236 0.157,0.744 0.744,0 0,0 0,1.048 0.745,0.745 0,0 0,0.236 0.158A0.737,0.737 0,0 0,129.5 105.564ZM129.556,104.379a0.402,0.402 0,0 1,0.262 0.076,0.253 0.253,0 0,1 0.092,0.206 0.24,0.24 0,0 1,-0.073 0.18,0.35 0.35,0 0,1 -0.208,0.087l0.289,0.333h-0.226l-0.268,-0.331h-0.086v0.331h-0.189v-0.883ZM129.337,104.544v0.235h0.217a0.213,0.213 0,0 0,0.119 -0.029,0.1 0.1,0 0,0 0.044,-0.09 0.098,0.098 0,0 0,-0.044 -0.087,0.215 0.215,0 0,0 -0.119,-0.029ZM118.294,100.479a2.894,2.894 0,1 1,2.9 3.06,2.867 2.867,0 0,1 -2.9,-3.06ZM48.064,100.479v-4.779h-2.08v1.16a3.626,3.626 0,0 0,-3.02 -1.4,5.025 5.025,0 0,0 0,10.039 3.626,3.626 0,0 0,3.02 -1.4v1.16h2.08ZM40.325,100.479a2.894,2.894 0,1 1,2.899 3.06A2.867,2.867 0,0 1,40.325 100.479Z&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/drawable/ic_mastercard.xml"
+            line="7"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        message="Very long vector path (1545 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        errorLine1="      android:pathData=&quot;M15.1408,27L15.1408,26.5H15.1408L15.1408,27ZM5,21.5577L4.5001,21.5502L4.4977,21.705L4.5833,21.8341L5,21.5577ZM25.2817,21.5577L25.6984,21.8341L25.784,21.705L25.7816,21.5502L25.2817,21.5577ZM15.1408,3.5C17.6703,3.5 19.7113,5.5409 19.7113,8.0704H20.7113C20.7113,4.9886 18.2226,2.5 15.1408,2.5V3.5ZM19.7113,8.0704C19.7113,10.5999 17.6703,12.6408 15.1408,12.6408V13.6408C18.2226,13.6408 20.7113,11.1522 20.7113,8.0704H19.7113ZM15.1408,12.6408C12.6113,12.6408 10.5704,10.5999 10.5704,8.0704H9.5704C9.5704,11.1522 12.0591,13.6408 15.1408,13.6408V12.6408ZM10.5704,8.0704C10.5704,5.5409 12.6113,3.5 15.1408,3.5V2.5C12.0591,2.5 9.5704,4.9886 9.5704,8.0704H10.5704ZM15.1408,26.5C11.2297,26.5 7.5786,24.5406 5.4167,21.2813L4.5833,21.8341C6.9306,25.3727 10.8945,27.5 15.1408,27.5L15.1408,26.5ZM5.4999,21.5653C5.5099,20.904 5.8449,20.2784 6.4724,19.6902C7.1021,19.1002 7.9922,18.5826 9.0148,18.1549C11.0619,17.2987 13.519,16.8521 15.1408,16.8521V15.8521C13.3824,15.8521 10.7945,16.3266 8.6289,17.2324C7.5451,17.6857 6.537,18.2593 5.7887,18.9606C5.0382,19.6638 4.5154,20.5297 4.5001,21.5502L5.4999,21.5653ZM15.1408,16.8521C16.7541,16.8521 19.2113,17.2986 21.2608,18.155C22.2845,18.5827 23.1762,19.1004 23.8072,19.6906C24.4362,20.2789 24.7718,20.9045 24.7817,21.5653L25.7816,21.5502C25.7662,20.5293 25.242,19.6633 24.4903,18.9603C23.7407,18.2591 22.731,17.6855 21.6463,17.2323C19.4789,16.3267 16.891,15.8521 15.1408,15.8521V16.8521ZM24.865,21.2813C22.703,24.5406 19.052,26.5 15.1408,26.5L15.1408,27.5C19.3872,27.5 23.3511,25.3727 25.6984,21.8341L24.865,21.2813Z&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/drawable/ic_profile.xml"
+            line="7"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        message="Very long vector path (2750 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        errorLine1="      android:pathData=&quot;M1,3.4H0.5V3.9H1V3.4ZM3.4,3.4L3.8518,3.1857L3.7162,2.9H3.4V3.4ZM7.72,12.508L8.1579,12.7493L8.2815,12.5251L8.1718,12.2937L7.72,12.508ZM6.1,15.448L6.5342,15.6961L6.5379,15.6893L6.1,15.448ZM22.6,19V19.5H23.1V19H22.6ZM22.6,16.6H23.1V16.1H22.6V16.6ZM8.404,16.3L7.9189,16.1787L7.904,16.2384V16.3H8.404ZM8.44,16.156L8.0023,15.9143L7.9707,15.9714L7.9549,16.0347L8.44,16.156ZM9.52,14.2V13.7H9.2249L9.0823,13.9583L9.52,14.2ZM20.56,12.964L20.1222,12.7225L20.1216,12.7236L20.56,12.964ZM24.856,5.176L25.2938,5.4175L25.2958,5.4138L24.856,5.176ZM23.8,3.4L23.8012,2.9H23.8V3.4ZM6.052,3.4L5.5995,3.6127L5.7345,3.9H6.052V3.4ZM4.924,1L5.3765,0.7873L5.2415,0.5H4.924V1ZM8.2,19.7C6.6006,19.7 5.312,21.0071 5.312,22.6H6.312C6.312,21.5529 7.1594,20.7 8.2,20.7V19.7ZM5.312,22.6C5.312,24.1929 6.6006,25.5 8.2,25.5V24.5C7.1594,24.5 6.312,23.6471 6.312,22.6H5.312ZM8.2,25.5C9.7962,25.5 11.1,24.1961 11.1,22.6H10.1C10.1,23.6439 9.2439,24.5 8.2,24.5V25.5ZM11.1,22.6C11.1,21.0039 9.7962,19.7 8.2,19.7V20.7C9.2439,20.7 10.1,21.5561 10.1,22.6H11.1ZM0.5,1V3.4H1.5V1H0.5ZM1,3.9H3.4V2.9H1V3.9ZM2.9482,3.6143L7.2682,12.7223L8.1718,12.2937L3.8518,3.1857L2.9482,3.6143ZM7.2821,12.2667L5.6621,15.2067L6.5379,15.6893L8.1579,12.7493L7.2821,12.2667ZM5.6659,15.1999C5.4301,15.6126 5.3,16.0943 5.3,16.6H6.3C6.3,16.2657 6.3859,15.9554 6.5341,15.6961L5.6659,15.1999ZM5.3,16.6C5.3,18.1961 6.6039,19.5 8.2,19.5V18.5C7.1561,18.5 6.3,17.6439 6.3,16.6H5.3ZM8.2,19.5H22.6V18.5H8.2V19.5ZM23.1,19V16.6H22.1V19H23.1ZM22.6,16.1H8.704V17.1H22.6V16.1ZM8.704,16.1C8.8121,16.1 8.904,16.1919 8.904,16.3H7.904C7.904,16.7441 8.2599,17.1 8.704,17.1V16.1ZM8.8891,16.4213L8.9251,16.2773L7.9549,16.0347L7.9189,16.1787L8.8891,16.4213ZM8.8777,16.3977L9.9577,14.4417L9.0823,13.9583L8.0023,15.9143L8.8777,16.3977ZM9.52,14.7H18.46V13.7H9.52V14.7ZM18.46,14.7C19.5457,14.7 20.5041,14.1058 20.9984,13.2044L20.1216,12.7236C19.7999,13.3102 19.1744,13.7 18.46,13.7V14.7ZM20.9978,13.2055L25.2938,5.4175L24.4182,4.9345L20.1222,12.7225L20.9978,13.2055ZM25.2958,5.4138C25.5809,4.8865 25.5679,4.2482 25.2615,3.7329L24.402,4.244C24.5285,4.4568 24.5339,4.7204 24.4162,4.9382L25.2958,5.4138ZM25.2615,3.7329C24.9552,3.2177 24.4006,2.9014 23.8012,2.9L23.7988,3.9C24.0464,3.9006 24.2755,4.0312 24.402,4.244L25.2615,3.7329ZM23.8,2.9H6.052V3.9H23.8V2.9ZM6.5045,3.1873L5.3765,0.7873L4.4715,1.2127L5.5995,3.6127L6.5045,3.1873ZM4.924,0.5H1V1.5H4.924V0.5ZM20.2,19.7C18.6006,19.7 17.312,21.0071 17.312,22.6H18.312C18.312,21.5529 19.1594,20.7 20.2,20.7V19.7ZM17.312,22.6C17.312,24.1929 18.6006,25.5 20.2,25.5V24.5C19.1594,24.5 18.312,23.6471 18.312,22.6H17.312ZM20.2,25.5C21.7962,25.5 23.1,24.1961 23.1,22.6H22.1C22.1,23.6439 21.2439,24.5 20.2,24.5V25.5ZM23.1,22.6C23.1,21.0039 21.7962,19.7 20.2,19.7V20.7C21.2439,20.7 22.1,21.5561 22.1,22.6H23.1Z&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/drawable/ic_shopping_cart.xml"
+            line="7"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        message="Very long vector path (10829 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        errorLine1="      android:pathData=&quot;M66.698,40.856C60.14,40.923 58.203,40.856 57.584,40.71C57.346,41.84 52.92,62.256 52.908,62.273C51.955,66.404 51.262,69.348 48.906,71.249C47.57,72.354 46.009,72.888 44.199,72.888C41.291,72.888 39.596,71.443 39.312,68.704L39.257,67.764C39.257,67.764 40.143,62.231 40.143,62.2C40.143,62.2 44.788,43.595 45.62,41.136C45.664,40.996 45.676,40.923 45.687,40.856C36.646,40.935 35.043,40.856 34.933,40.71C34.872,40.911 34.648,42.064 34.648,42.064L29.905,63.033L29.498,64.812L28.71,70.629C28.71,72.354 29.049,73.763 29.723,74.954C31.884,78.73 38.048,79.296 41.535,79.296C46.027,79.296 50.242,78.341 53.09,76.598C58.033,73.677 59.327,69.112 60.48,65.054L61.015,62.973C61.015,62.973 65.8,43.65 66.613,41.136C66.644,40.996 66.656,40.923 66.698,40.856ZM82.979,56.444C81.825,56.444 79.717,56.724 77.824,57.652C77.137,58.005 76.487,58.412 75.801,58.818L76.42,56.584L76.081,56.208C72.066,57.021 71.167,57.13 67.458,57.652L67.147,57.859C66.717,61.43 66.334,64.114 64.738,71.133C64.13,73.72 63.499,76.332 62.866,78.912L63.037,79.24C66.838,79.04 67.991,79.04 71.295,79.094L71.562,78.803C71.982,76.653 72.036,76.15 72.966,71.795C73.403,69.731 74.314,65.195 74.763,63.58C75.588,63.197 76.403,62.821 77.18,62.821C79.032,62.821 78.806,64.436 78.735,65.08C78.655,66.16 77.981,69.689 77.289,72.719L76.827,74.674C76.506,76.119 76.153,77.522 75.831,78.954L75.971,79.24C79.717,79.04 80.86,79.04 84.059,79.094L84.435,78.803C85.014,75.446 85.183,74.547 86.209,69.658L86.725,67.412C87.728,63.015 88.232,60.786 87.473,58.97C86.671,56.935 84.746,56.444 82.979,56.444ZM101.166,61.047C99.174,61.43 97.904,61.684 96.642,61.849C95.391,62.05 94.17,62.232 92.246,62.499L92.093,62.637L91.953,62.748C91.753,64.181 91.613,65.42 91.347,66.877C91.122,68.383 90.775,70.095 90.211,72.554C89.774,74.436 89.549,75.092 89.3,75.755C89.057,76.417 88.79,77.061 88.299,78.912L88.414,79.083L88.51,79.24C90.309,79.155 91.486,79.094 92.695,79.083C93.903,79.039 95.154,79.083 97.091,79.094L97.261,78.956L97.443,78.803C97.722,77.134 97.764,76.684 97.935,75.87C98.105,74.996 98.397,73.787 99.114,70.556C99.453,69.039 99.83,67.526 100.182,65.978C100.547,64.436 100.929,62.917 101.293,61.4L101.239,61.217L101.166,61.047ZM101.208,54.841C99.399,53.773 96.223,54.112 94.085,55.587C91.954,57.033 91.711,59.085 93.515,60.167C95.293,61.205 98.481,60.896 100.6,59.408C102.727,57.931 102.993,55.898 101.208,54.841ZM112.151,79.575C115.812,79.575 119.565,78.566 122.39,75.572C124.563,73.144 125.559,69.531 125.905,68.043C127.028,63.112 126.153,60.81 125.054,59.408C123.385,57.27 120.434,56.584 117.373,56.584C115.533,56.584 111.149,56.766 107.724,59.924C105.265,62.201 104.128,65.292 103.443,68.254C102.751,71.273 101.955,76.708 106.953,78.731C108.495,79.393 110.718,79.575 112.151,79.575ZM111.865,68.48C112.709,64.746 113.706,61.612 116.249,61.612C118.242,61.612 118.387,63.944 117.501,67.69C117.342,68.522 116.615,71.614 115.63,72.931C114.943,73.902 114.13,74.491 113.232,74.491C112.964,74.491 111.374,74.491 111.349,72.13C111.337,70.964 111.575,69.773 111.865,68.48ZM135.056,79.095L135.342,78.804C135.748,76.654 135.815,76.149 136.713,71.796C137.163,69.731 138.092,65.195 138.529,63.58C139.356,63.196 140.157,62.82 140.959,62.82C142.798,62.82 142.574,64.435 142.501,65.079C142.434,66.161 141.759,69.688 141.055,72.718L140.618,74.673C140.284,76.119 139.92,77.521 139.599,78.955L139.738,79.241C143.497,79.04 144.596,79.04 147.814,79.095L148.203,78.804C148.767,75.444 148.92,74.546 149.977,69.658L150.48,67.411C151.488,63.014 151.998,60.787 151.251,58.971C150.426,56.936 148.489,56.445 146.746,56.445C145.591,56.445 143.473,56.723 141.59,57.653C140.917,58.005 140.242,58.411 139.58,58.819L140.157,56.585L139.847,56.207C135.833,57.021 134.916,57.13 131.212,57.653L130.927,57.859C130.478,61.43 130.113,64.113 128.516,71.134C127.908,73.72 127.277,76.332 126.646,78.913L126.815,79.241C130.623,79.04 131.759,79.04 135.056,79.095ZM162.674,79.24C162.91,78.086 164.314,71.249 164.326,71.249C164.326,71.249 165.521,66.233 165.595,66.051C165.595,66.051 165.971,65.529 166.347,65.322L166.9,65.322C172.122,65.322 178.019,65.322 182.64,61.922C185.785,59.59 187.935,56.147 188.894,51.962C189.143,50.936 189.326,49.716 189.326,48.496C189.326,46.893 189.005,45.307 188.075,44.068C185.718,40.771 181.025,40.71 175.607,40.685C175.59,40.685 172.937,40.71 172.937,40.71C166.002,40.796 163.221,40.771 162.078,40.631C161.982,41.136 161.8,42.035 161.8,42.035C161.8,42.035 159.316,53.548 159.316,53.566C159.316,53.566 153.371,78.044 153.091,79.198C159.146,79.125 161.629,79.125 162.674,79.24ZM167.277,58.788C167.277,58.788 169.918,47.299 169.905,47.342L169.991,46.753L170.028,46.304L171.084,46.412C171.084,46.412 176.531,46.88 176.658,46.893C178.808,47.724 179.694,49.868 179.076,52.666C178.511,55.224 176.853,57.374 174.721,58.412C172.966,59.292 170.816,59.365 168.601,59.365L167.168,59.365L167.277,58.788ZM183.721,68.693C183.023,71.668 182.221,77.103 187.194,79.04C188.78,79.714 190.201,79.915 191.645,79.842C193.17,79.76 194.583,78.995 195.892,77.894C195.774,78.346 195.656,78.799 195.537,79.253L195.763,79.543C199.34,79.393 200.45,79.393 204.325,79.422L204.677,79.155C205.242,75.828 205.776,72.598 207.246,66.233C207.963,63.185 208.678,60.166 209.413,57.13L209.298,56.796C205.297,57.537 204.227,57.696 200.378,58.241L200.086,58.479C200.047,58.789 200.007,59.086 199.969,59.383C199.371,58.416 198.503,57.59 197.165,57.076C195.453,56.402 191.433,57.27 187.978,60.416C185.549,62.663 184.383,65.741 183.721,68.693ZM192.125,68.875C192.982,65.207 193.966,62.105 196.515,62.105C198.127,62.105 198.976,63.592 198.803,66.129C198.667,66.762 198.519,67.429 198.343,68.183C198.088,69.273 197.812,70.353 197.543,71.435C197.269,72.175 196.95,72.873 196.601,73.338C195.945,74.267 194.384,74.844 193.485,74.844C193.23,74.844 191.657,74.844 191.603,72.525C191.59,71.37 191.828,70.18 192.125,68.875ZM236.011,56.766L235.702,56.413C231.742,57.215 231.025,57.343 227.388,57.834L227.12,58.101C227.108,58.145 227.097,58.212 227.078,58.272L227.066,58.212C224.358,64.46 224.437,63.112 222.233,68.03C222.22,67.806 222.22,67.667 222.208,67.429L221.656,56.766L221.31,56.413C217.162,57.215 217.064,57.343 213.234,57.834L212.935,58.101C212.893,58.229 212.893,58.369 212.868,58.521L212.893,58.576C213.372,61.022 213.257,60.477 213.737,64.338C213.961,66.233 214.26,68.139 214.483,70.011C214.861,73.143 215.073,74.685 215.534,79.466C212.948,83.734 212.335,85.35 209.845,89.096L209.862,89.133L208.108,91.907C207.908,92.199 207.726,92.399 207.471,92.485C207.191,92.623 206.827,92.648 206.322,92.648L205.35,92.648L203.906,97.452L208.861,97.537C211.769,97.525 213.597,96.165 214.581,94.336L217.697,88.998L217.647,88.998L217.975,88.622C220.071,84.111 236.011,56.766 236.011,56.766ZM183.721,119.854L181.619,119.854L189.398,94.124L191.979,94.124L192.798,91.474L192.877,94.421C192.781,96.243 194.214,97.858 197.979,97.591L202.334,97.591L203.832,92.637L202.194,92.637C201.252,92.637 200.815,92.399 200.869,91.889L200.79,88.89L192.727,88.89L192.727,88.906C190.12,88.96 182.334,89.156 180.758,89.576C178.851,90.067 176.841,91.513 176.841,91.513L177.63,88.859L170.088,88.859L168.516,94.124L160.633,120.247L159.103,120.247L157.603,125.166L172.626,125.166L172.123,126.806L179.525,126.806L180.017,125.166L182.093,125.166L183.721,119.854ZM177.557,99.352C176.349,99.686 174.102,100.7 174.102,100.7L176.101,94.124L182.093,94.124L180.648,98.915C180.648,98.915 178.796,99.024 177.557,99.352ZM177.672,108.746C177.672,108.746 175.79,108.983 174.551,109.262C173.33,109.632 171.042,110.798 171.042,110.798L173.107,103.955L179.13,103.955L177.672,108.746ZM174.314,119.914L168.303,119.914L170.046,114.139L176.038,114.139L174.314,119.914ZM188.791,103.955L197.456,103.955L196.211,107.988L187.431,107.988L186.113,112.396L193.796,112.396L187.978,120.587C187.571,121.189 187.206,121.402 186.8,121.571C186.393,121.778 185.858,122.021 185.239,122.021L183.108,122.021L181.644,126.849L187.218,126.849C190.116,126.849 191.827,125.531 193.091,123.801L197.08,118.341L197.937,123.885C198.119,124.923 198.865,125.531 199.37,125.767C199.928,126.047 200.505,126.527 201.32,126.599C202.193,126.636 202.824,126.666 203.244,126.666L205.983,126.666L207.628,121.262L206.547,121.262C205.927,121.262 204.859,121.158 204.677,120.964C204.495,120.727 204.495,120.364 204.398,119.81L203.529,114.254L199.97,114.254L201.531,112.396L210.294,112.396L211.642,107.988L203.529,107.988L204.792,103.955L212.881,103.955L214.381,98.982L190.267,98.982L188.791,103.955ZM115.606,121.037L117.628,114.309L125.941,114.309L127.459,109.305L119.139,109.305L120.409,105.164L128.54,105.164L130.046,100.318L109.703,100.318L108.228,105.164L112.85,105.164L111.617,109.305L106.983,109.305L105.447,114.395L110.067,114.395L107.371,123.296C107.008,124.474 107.542,124.923 107.881,125.471C108.228,126.004 108.579,126.357 109.369,126.557C110.184,126.739 110.742,126.848 111.5,126.848L120.871,126.848L122.541,121.304L118.387,121.875C117.585,121.875 115.363,121.779 115.606,121.037ZM116.559,88.829L114.453,92.636C114.002,93.467 113.596,93.984 113.231,94.221C112.909,94.422 112.272,94.506 111.348,94.506L110.249,94.506L108.78,99.376L112.43,99.376C114.186,99.376 115.533,98.733 116.177,98.411C116.869,98.041 117.051,98.252 117.585,97.736L118.818,96.668L130.216,96.668L131.729,91.597L123.385,91.597L124.842,88.829L116.559,88.829ZM133.386,121.135C133.192,120.855 133.332,120.362 133.629,119.336L136.744,109.025L147.827,109.025C149.442,109.002 150.608,108.983 151.366,108.929C152.181,108.843 153.067,108.552 154.032,108.03C155.029,107.483 155.539,106.906 155.969,106.244C156.45,105.583 157.221,104.137 157.883,101.908L161.799,88.859L150.298,88.926C150.298,88.926 146.757,89.448 145.198,90.025C143.625,90.669 141.377,92.466 141.377,92.466L142.415,88.889L135.311,88.889L125.365,121.875C125.012,123.156 124.776,124.085 124.721,124.644C124.703,125.245 125.48,125.841 125.984,126.29C126.579,126.739 127.459,126.666 128.303,126.739C129.191,126.806 130.453,126.848 132.196,126.848L137.655,126.848L139.331,121.189L134.444,121.651C133.921,121.651 133.543,121.371 133.386,121.135ZM138.754,102.061L150.395,102.061L149.655,104.38C149.551,104.434 149.302,104.265 148.117,104.405L138.038,104.405L138.754,102.061ZM141.086,94.282L152.825,94.282L151.98,97.075C151.98,97.075 146.448,97.021 145.562,97.184C141.663,97.859 139.385,99.942 139.385,99.942L141.086,94.282ZM149.915,112.147C149.819,112.494 149.667,112.705 149.454,112.864C149.217,113.016 148.835,113.07 148.264,113.07L146.606,113.07L146.704,110.246L139.805,110.246L139.525,124.055C139.514,125.051 139.61,125.628 140.339,126.09C141.068,126.666 143.315,126.74 146.338,126.74L150.662,126.74L152.222,121.571L148.459,121.777L147.207,121.85C147.036,121.777 146.873,121.711 146.691,121.529C146.533,121.372 146.265,121.468 146.309,120.472L146.338,116.932L150.285,116.769C152.417,116.769 153.328,116.075 154.105,115.415C154.846,114.782 155.089,114.054 155.369,113.07L156.031,109.936L150.607,109.936L149.915,112.147Z&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/drawable/ic_unionpay.xml"
+            line="16"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        message="Very long vector path (1007 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        errorLine1="        android:pathData=&quot;M332.256,91.616c-0.284,22.401 19.964,34.903 35.217,42.335 15.672,7.627 20.936,12.517 20.876,19.336 -0.12,10.438 -12.502,15.044 -24.091,15.223 -20.218,0.314 -31.972,-5.458 -41.318,-9.825l-7.283,34.08c9.376,4.322 26.738,8.09 44.743,8.255 42.26,-0 69.91,-20.861 70.06,-53.207 0.164,-41.049 -56.781,-43.322 -56.392,-61.671 0.135,-5.563 5.443,-11.5 17.078,-13.01 5.757,-0.763 21.653,-1.346 39.673,6.954l7.073,-32.974c-9.69,-3.529 -22.147,-6.909 -37.654,-6.909 -39.778,-0 -67.757,21.145 -67.981,51.412m173.602,-48.571c-7.716,-0 -14.221,4.501 -17.122,11.41l-60.37,144.142l42.23,-0l8.404,-23.224l51.606,-0l4.875,23.224l37.221,-0l-32.48,-155.552l-34.364,-0m5.907,42.021l12.188,58.411l-33.377,-0l21.19,-58.411m-230.711,-42.021l-33.288,155.552l40.241,-0l33.273,-155.552l-40.226,-0m-59.532,-0l-41.886,105.875 -16.943,-90.023c-1.989,-10.049 -9.84,-15.851 -18.558,-15.851l-68.475,-0l-0.957,4.516c14.057,3.051 30.028,7.971 39.703,13.234 5.922,3.215 7.612,6.026 9.556,13.668l32.091,124.134l42.529,-0l65.2,-155.552l-42.26,-0&quot;/>"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/drawable/ic_visa.xml"
+            line="9"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="KaptUsageInsteadOfKsp"
+        message="This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp"
+        errorLine1="    kapt &apos;com.github.bumptech.glide:compiler:4.16.0&apos;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="67"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="KaptUsageInsteadOfKsp"
+        message="This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp"
+        errorLine1="    kapt &quot;androidx.room:room-compiler:$room_version&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="81"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="DisableBaselineAlignment"
+        message="Set `android:baselineAligned=&quot;false&quot;` on this element for better performance"
+        errorLine1="    &lt;LinearLayout"
+        errorLine2="     ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/single_card.xml"
+            line="36"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.CarEase`)"
+        errorLine1="    android:background=&quot;@color/background&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_home.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.CarEase`)"
+        errorLine1="    android:background=&quot;@color/background&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_login.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.CarEase`)"
+        errorLine1="    android:background=&quot;@color/background&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_sign_up.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.CarEase`)"
+        errorLine1="    android:background=&quot;@color/background&quot;>"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_bag.xml"
+            line="8"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.CarEase`)"
+        errorLine1="    android:background=&quot;@color/background&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_fav.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.CarEase`)"
+        errorLine1="    android:background=&quot;@color/background&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_home.xml"
+            line="8"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.CarEase`)"
+        errorLine1="    android:background=&quot;@color/background&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.CarEase`)"
+        errorLine1="    android:background=&quot;@color/background&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_shop.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.CarEase`)"
+        errorLine1="    android:background=&quot;@color/background&quot; >"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/single_card.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.CarEase`)"
+        errorLine1="    android:background=&quot;@color/background&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/single_product.xml"
+            line="6"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.bmw_x7` appears to be unused">
+        <location
+            file="src/main/res/drawable/bmw_x7.jpg"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.mipmap.bn` appears to be unused"
+        errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^">
+        <location
+            file="src/main/res/mipmap-anydpi-v26/bn.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.bn_background` appears to be unused"
+        errorLine1="&lt;vector"
+        errorLine2="^">
+        <location
+            file="src/main/res/drawable/bn_background.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.bn_foreground` appears to be unused"
+        errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/drawable/bn_foreground.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.mipmap.bn_round` appears to be unused"
+        errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^">
+        <location
+            file="src/main/res/mipmap-anydpi-v26/bn_round.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.error` appears to be unused"
+        errorLine1="    &lt;color name=&quot;error&quot;>#F01F0E&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.success` appears to be unused"
+        errorLine1="    &lt;color name=&quot;success&quot;>#2AA952&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.sale` appears to be unused"
+        errorLine1="    &lt;color name=&quot;sale&quot;>#DB3022&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.mipmap.ic_launcher` appears to be unused"
+        errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^">
+        <location
+            file="src/main/res/mipmap-anydpi/ic_launcher.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_launcher_background` appears to be unused"
+        errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/drawable/ic_launcher_background.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_launcher_foreground` appears to be unused"
+        errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/drawable/ic_launcher_foreground.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.mipmap.ic_launcher_round` appears to be unused"
+        errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^">
+        <location
+            file="src/main/res/mipmap-anydpi/ic_launcher_round.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.land_rover_range_rover` appears to be unused">
+        <location
+            file="src/main/res/drawable/land_rover_range_rover.jpg"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.mercedes_gls` appears to be unused">
+        <location
+            file="src/main/res/drawable/mercedes_gls.jpg"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.porche_911` appears to be unused">
+        <location
+            file="src/main/res/drawable/porche_911.jpg"/>
+    </issue>
+
+    <issue
+        id="UselessParent"
+        message="This `LinearLayout` layout or its `LinearLayout` parent is unnecessary"
+        errorLine1="            &lt;LinearLayout"
+        errorLine2="             ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_shop.xml"
+            line="32"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="IconLauncherShape"
+        message="Launcher icon used as round icon did not have a circular shape">
+        <location
+            file="src/main/res/drawable/car.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/bmw_x7.jpg` in densityless folder">
+        <location
+            file="src/main/res/drawable/bmw_x7.jpg"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/bn.png` in densityless folder">
+        <location
+            file="src/main/res/drawable/bn.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/car.png` in densityless folder">
+        <location
+            file="src/main/res/drawable/car.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/land_rover_range_rover.jpg` in densityless folder">
+        <location
+            file="src/main/res/drawable/land_rover_range_rover.jpg"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/mercedes_gls.jpg` in densityless folder">
+        <location
+            file="src/main/res/drawable/mercedes_gls.jpg"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/porche_911.jpg` in densityless folder">
+        <location
+            file="src/main/res/drawable/porche_911.jpg"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/visa_card.png` in densityless folder">
+        <location
+            file="src/main/res/drawable/visa_card.png"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `9sp`"
+        errorLine1="            android:textSize=&quot;9sp&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_login.xml"
+            line="57"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `9sp`"
+        errorLine1="            android:textSize=&quot;9sp&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_login.xml"
+            line="84"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        message="Missing `autofillHints` attribute"
+        errorLine1="        &lt;EditText"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_login.xml"
+            line="34"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        message="Missing `autofillHints` attribute"
+        errorLine1="        &lt;EditText"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_login.xml"
+            line="60"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        message="Missing `autofillHints` attribute"
+        errorLine1="        &lt;EditText"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_sign_up.xml"
+            line="32"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        message="Missing `autofillHints` attribute"
+        errorLine1="        &lt;EditText"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_sign_up.xml"
+            line="47"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        message="Missing `autofillHints` attribute"
+        errorLine1="        &lt;EditText"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_sign_up.xml"
+            line="63"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        message="Missing `autofillHints` attribute"
+        errorLine1="        &lt;EditText"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_sign_up.xml"
+            line="79"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.legacy.support.v4`) instead"
+        errorLine1="    implementation &quot;androidx.legacy:legacy-support-v4:1.0.0&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="50"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.core:core-ktx is already available as `core-ktx`, but using version 1.10.1 instead)"
+        errorLine1="    implementation &apos;androidx.core:core-ktx:1.12.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="54"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.appcompat`) instead"
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.6.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="55"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (com.google.android.material:material is already available as `material`, but using version 1.9.0 instead)"
+        errorLine1="    implementation &apos;com.google.android.material:material:1.11.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="56"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.constraintlayout`) instead"
+        errorLine1="    implementation &apos;androidx.constraintlayout:constraintlayout:2.1.4&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="57"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation platform(&apos;com.google.firebase:firebase-bom:32.7.1&apos;)"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="60"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation &apos;com.google.firebase:firebase-auth-ktx&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="61"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation &apos;com.google.firebase:firebase-database-ktx&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="62"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation &apos;com.google.firebase:firebase-storage-ktx&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="63"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.glide`) instead"
+        errorLine1="    implementation &apos;com.github.bumptech.glide:glide:4.16.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="66"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    kapt &apos;com.github.bumptech.glide:compiler:4.16.0&apos;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="67"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (com.google.code.gson:gson is already available as `gson`, but using version 2.10 instead)"
+        errorLine1="    implementation &apos;com.google.code.gson:gson:2.10.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="70"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.lifecycle:lifecycle-viewmodel-ktx is already available as `androidx-lifecycle-viewmodel-ktx`, but using version 2.6.1 instead)"
+        errorLine1="    implementation &quot;androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="73"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.lifecycle:lifecycle-livedata-ktx is already available as `androidx-lifecycle-livedata-ktx`, but using version 2.6.1 instead)"
+        errorLine1="    implementation &quot;androidx.lifecycle:lifecycle-livedata-ktx:2.7.0&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="74"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation &quot;androidx.lifecycle:lifecycle-runtime-ktx:2.7.0&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="75"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.room:room-runtime is already available as `androidx-room-runtime`, but using version 2.5.2 instead)"
+        errorLine1="    implementation &quot;androidx.room:room-runtime:$room_version&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="79"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.room:room-ktx is already available as `androidx-room-ktx`, but using version 2.5.2 instead)"
+        errorLine1="    implementation &quot;androidx.room:room-ktx:$room_version&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="80"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (org.jetbrains.kotlinx:kotlinx-coroutines-android is already available as `kotlinx-coroutines-android`, but using version 1.6.4 instead)"
+        errorLine1="    implementation &quot;org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="84"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (com.airbnb.android:lottie is already available as `lottie`, but using version 5.2.0 instead)"
+        errorLine1="    implementation &apos;com.airbnb.android:lottie:6.2.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="87"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.circleimageview`) instead"
+        errorLine1="    implementation &apos;de.hdodenhof:circleimageview:3.1.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="88"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="            &lt;ImageView"
+        errorLine2="             ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/cart_item_single.xml"
+            line="26"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                        &lt;ImageView"
+        errorLine2="                         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/cart_item_single.xml"
+            line="74"
+            column="26"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                        &lt;ImageView"
+        errorLine2="                         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/cart_item_single.xml"
+            line="102"
+            column="26"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                &lt;ImageView"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/cart_item_single.xml"
+            line="120"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/category_single.xml"
+            line="20"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/cover_single.xml"
+            line="7"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_home.xml"
+            line="184"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="38"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                &lt;ImageView"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="163"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                &lt;ImageView"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="215"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                &lt;ImageView"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="269"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                &lt;ImageView"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="320"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                &lt;ImageView"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="373"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/single_card.xml"
+            line="9"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/single_product.xml"
+            line="22"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/single_product.xml"
+            line="41"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders."
+        errorLine1="            totalPriceBagFrag.text = &quot;$&quot; + sum"
+        errorLine2="                                     ~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/carease/presentation/fragment/BagFragment.kt"
+            line="86"
+            column="38"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders."
+        errorLine1="        holder.cartPrice.text = &quot;$&quot;+ cartItem.price"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/carease/presentation/adapter/CartAdapter.kt"
+            line="28"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders."
+        errorLine1="        holder.productPrice_singleProduct.text = &quot;$&quot;+ product.productPrice"
+        errorLine2="                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/carease/presentation/adapter/SaleProductAdapter.kt"
+            line="29"
+            column="50"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead."
+        errorLine1="            holder.discountTv_singleProduct.text = &quot;New&quot;"
+        errorLine2="                                                    ~~~">
+        <location
+            file="src/main/java/com/example/carease/presentation/adapter/SaleProductAdapter.kt"
+            line="41"
+            column="53"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Full Name&quot;, should use `@string` resource"
+        errorLine1="            android:hint=&quot;Full Name&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_sign_up.xml"
+            line="43"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:drawableRight` with `android:drawableEnd=&quot;@null&quot;` to better support right-to-left layouts"
+        errorLine1="            android:drawableRight=&quot;@null&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_sign_up.xml"
+            line="38"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingRight` with `android:paddingEnd=&quot;20dp&quot;` to better support right-to-left layouts"
+        errorLine1="            android:paddingRight=&quot;20dp&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_sign_up.xml"
+            line="55"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:drawableRight` with `android:drawableEnd=&quot;@null&quot;` to better support right-to-left layouts"
+        errorLine1="            android:drawableRight=&quot;@null&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_sign_up.xml"
+            line="70"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Use &quot;`end`&quot; instead of &quot;`right`&quot; to ensure correct behavior in right-to-left locales"
+        errorLine1="                android:gravity=&quot;right&quot;"
+        errorLine2="                                 ~~~~~">
+        <location
+            file="src/main/res/layout/fragment_bag.xml"
+            line="73"
+            column="34"/>
+    </issue>
+
+</issues>
